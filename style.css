@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR CSS START */
+body {
+    background-color:#131313;
+    font-family: "Outfit", sans-serif;
+    color: white;
+}
+
+#navbar {
+    padding: 12px 48px;
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.navigation-list {
+    list-style: none;
+    display: flex;
+    gap: 52px;
+}
+
+.button-action-top {
+    width: 140px;
+    height: 32px;
+    border-radius: 32px;
+    border: none;
+    background-color: #FF8C00;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-action-outlined {
+    width: 100px;
+    height: 32px;
+    border-radius: 32px;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HERO CSS START */
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 64px;
+    height: 180vh;
+}
+
+.hero-description > h2 {
+    font-size: 32px;
+}
+
+.hero-description > h1 {
+    font-size: 44px;
+}
+
+.call-to-action {
+    margin-top: 20px;
+    display: flex;
+    gap: 16px;
+}
+
+.badges {
+    border: 1px solid white;
+    padding: 8px 12px;
+    display: inline-block;
+    border-radius: 36px;
+    margin-bottom: 16px;
+}
+
+.styled-text {
+    color: #ff8c00;
+    background-color: #FF8C0060;
+    padding: 0 8px;
+    border-radius: 20px;
+}
+
+.orange-text {
+    color: #ff8c00;
+}
+
+#services {
+    padding: 42px 0px;
+    background-color: #1a1a1a;
+}
+
+.our-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.our-services > h1 {
+    font-size: 44px;
+}
+
+.card-services-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.card-services {
+    width: 320px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 24px;
+    box-shadow: 4px 4px 12px -4px #000000;
+    padding: 16px;
+    gap: 12px;
+}
+
+.card-services > p {
+    text-align: center;
+}
+
+.icon-services {
+    width: 120px;
+}
+
+.card-reviews {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 24px;
+    box-shadow: 4px 4px 12px -4px #000000;
+    padding: 16px 400px;
+    gap: 32px;
+}
+
+.card-reviews > p {
+    text-align: center;
+}
+
+#contact {
+    padding: 44px 64px;
+}
+
+.reviewer {
+    text-align: center;
+}
+
+#contact-now {
+    padding: 160px 180px;
+    background-image: url(./asset/background.png);
+}
+
+.button-action-down {
+    width: 140px;
+    height: 32px;
+    border-radius: 32px;
+    border: none;
+    background-color: black;
+    color: #ff8c00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
